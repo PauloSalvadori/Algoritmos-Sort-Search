@@ -83,10 +83,14 @@ void executar_teste(const char *nome_arquivo, const char *nome_algoritmo) {
     inicio = clock();
     
     // Chamada das funções de sorting
-    if (strcmp(nome_algoritmo, "Quicksort") == 0) {
-        quick_sort(vetor_teste, 0, tamanho_vetor - 1);
+    if (strcmp(nome_algoritmo, "Selection Sort") == 0) {
+        //quick_sort(vetor_teste, 0, tamanho_vetor - 1);
     } 
-    /* Adicione seus outros algoritmos aqui (ex: Mergesort) */
+    
+    if (strcmp(nome_algoritmo, "Insertion Sort") == 0) {
+
+    }
+    /* Adicione os outros algoritmos aqui */
     
     fim = clock();
 
