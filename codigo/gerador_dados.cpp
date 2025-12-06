@@ -103,7 +103,6 @@ void gerador_arquivo(char cod_tam, char cod_cenario){
         }
     }
 
-    printf("%c", cod_cenario);
     // Geração do nome do arquivo
     const char *nome_tamanho = obter_nome_tam(cod_tam);
     const char *nome_cenario = obter_nome_cenario(cod_cenario);
